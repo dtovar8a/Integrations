@@ -1,0 +1,27 @@
+{
+  "id": "ab8d9f46-1630-4097-8427-d510cc87594d",
+  "name": "Integration",
+  "publisher": "Daniel Tovar Ochoa",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 70200,
+      "to": 70249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Integration.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0",
+  "features": ["TranslationFile"]
+}

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="xml" source-language="en-US" target-language="ES-ES_tradnl" original="Integration">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3408449539 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Custom Web Services</source>
+          <target>Servicios Web personalizados</target>
+          <note from="Developer" annotates="general" priority="2">Servicios Web personalizados</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOCustomWebService - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408449539 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Code</source>
+          <target>Código</target>
+          <note from="Developer" annotates="general" priority="2">Código</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOCustomWebService - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408449539 - Field 2081653085 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Connection Code</source>
+          <target>Cód. conexión</target>
+          <note from="Developer" annotates="general" priority="2">Cód. conexión</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOCustomWebService - Field Connection Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408449539 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2">Descripción</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOCustomWebService - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408449539 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Enabled</source>
+          <target>Habilitado</target>
+          <note from="Developer" annotates="general" priority="2">Habilitado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOCustomWebService - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3408449539 - Field 3788920014 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Request URL</source>
+          <target>URL de solicitud</target>
+          <note from="Developer" annotates="general" priority="2">URL de solicitud</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOCustomWebService - Field Request URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Item Proxy</source>
+          <target>Integración Producto</target>
+          <note from="Developer" annotates="general" priority="2">Integración Producto</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 2838451934 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Created by User</source>
+          <target>Creado por</target>
+          <note from="Developer" annotates="general" priority="2">Creado por</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Created by User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2">Descripción</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Entry No.</source>
+          <target>No. movimiento</target>
+          <note from="Developer" annotates="general" priority="2">No. movimiento</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 1805468730 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Error Description</source>
+          <target>Descripción error</target>
+          <note from="Developer" annotates="general" priority="2">Descripción error</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Error Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 2938108582 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Has error</source>
+          <target>Error</target>
+          <note from="Developer" annotates="general" priority="2">Error</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field HasError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Item No.</source>
+          <target>No. producto</target>
+          <note from="Developer" annotates="general" priority="2">No. producto</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 1318813773 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Modified by User</source>
+          <target>Modificado por</target>
+          <note from="Developer" annotates="general" priority="2">Modificado por</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Modified by User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 3147824652 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Next Counting Start Date</source>
+          <target>Fecha de inicio de conteo siguiente</target>
+          <note from="Developer" annotates="general" priority="2">Fecha de inicio de conteo siguiente</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Next Counting Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3785605378 - Field 1737219358 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Transfered</source>
+          <target>Traspasado</target>
+          <note from="Developer" annotates="general" priority="2">Traspasado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOItemProxy - Field Transfered - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Service Web Setup</source>
+          <target>Configuración Servicios Web</target>
+          <note from="Developer" annotates="general" priority="2">Configuración Servicios Web</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 2722158932 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Auth Type</source>
+          <target>Tipo autenticación</target>
+          <note from="Developer" annotates="general" priority="2">Tipo autenticación</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Auth Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 1846567327 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Certificate</source>
+          <target>Certificado</target>
+          <note from="Developer" annotates="general" priority="2">Certificado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Certificate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 2148495897 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Certificated Load</source>
+          <target>Certificado cargado</target>
+          <note from="Developer" annotates="general" priority="2">Certificado cargado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Certificated Load - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 1448911874 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Certificated Password</source>
+          <target>Contraseña</target>
+          <note from="Developer" annotates="general" priority="2">Contraseña</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Certificated Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Code</source>
+          <target>Código</target>
+          <note from="Developer" annotates="general" priority="2">Código</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Description</source>
+          <target>Descripción</target>
+          <note from="Developer" annotates="general" priority="2">Descripción</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Enabled</source>
+          <target>Habilitado</target>
+          <note from="Developer" annotates="general" priority="2">Habilitado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 2575460289 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Password</source>
+          <target>Contraseña</target>
+          <note from="Developer" annotates="general" priority="2">Contraseña</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3860450984 - Field 1814464443 - Property 2879900210" size-unit="char" translate="yes">
+          <source>User</source>
+          <target>Usuario</target>
+          <note from="Developer" annotates="general" priority="2">Usuario</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DTOWebServiceConnection - Field User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1059541689 - Method 1665861916 - NamedType 2045622316" size-unit="char" translate="yes">
+          <source>Error using Send method (Error code: %1, Description: %2</source>
+          <target>Error al utilizar el método Send (Código de error: %1, Descripción : %2</target>
+          <note from="Developer" annotates="general" priority="2">Error al utilizar el método Send (Código de error: %1, Descripción : %2</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DTOHTTPRest - Method OnRun - NamedType ClientSendErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1059541689 - Method 1665861916 - NamedType 3945216784" size-unit="char" translate="yes">
+          <source>Unexpected format for response (Response: %1)</source>
+          <target>Formato inesperado para la respuesta (Resuesta: %1)</target>
+          <note from="Developer" annotates="general" priority="2">Formato inesperado para la respuesta (Resuesta: %1)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DTOHTTPRest - Method OnRun - NamedType ResponseMessageContentErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1486131970 - NamedType 1524254225" size-unit="char" translate="yes">
+          <source>There is no certificate file loaded</source>
+          <target>No existe fichero de certificado cargado</target>
+          <note from="Developer" annotates="general" priority="2">No existe fichero de certificado cargado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DTOImportItemsFromSW - NamedType CertificateDoesnotExistsLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3037901715 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Custom Web Services</source>
+          <target>Servicio Web personalizados</target>
+          <note from="Developer" annotates="general" priority="2">Servicio Web personalizados</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOCustomsWebServices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Item Proxy</source>
+          <target>Integración Productos</target>
+          <note from="Developer" annotates="general" priority="2">Integración Productos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Method 3963492126 - NamedType 2750169066" size-unit="char" translate="yes">
+          <source>Run Time: %1</source>
+          <target>Segundos ejecución: %1</target>
+          <note from="Developer" annotates="general" priority="2">Segundos ejecución: %1</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Method StopControlTime - NamedType RunTimeLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes">
+          <source>100 Alphanumeric chars</source>
+          <target>100 carácteres alfanuméricos</target>
+          <note from="Developer" annotates="general" priority="2">100 carácteres alfanuméricos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes">
+          <source>20 Alphanumeric chars</source>
+          <target>20 carácteres alfanuméricos</target>
+          <note from="Developer" annotates="general" priority="2">20 carácteres alfanuméricos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Control 3147824652 - Property 1295455071" size-unit="char" translate="yes">
+          <source>10 Alphanumeric chars (dd/mm/yyyy)</source>
+          <target>10 carácteres alfanuméricos (dd/mm/aaaa)</target>
+          <note from="Developer" annotates="general" priority="2">10 carácteres alfanuméricos (dd/mm/aaaa)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Control Next Counting Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3660625905 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Create Product</source>
+          <target>Crear Producto</target>
+          <note from="Developer" annotates="general" priority="2">Crear Producto</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action CreateProduct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 4218194158 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Create Only Selected Product</source>
+          <target>Crear sólo producto seleccionado</target>
+          <note from="Developer" annotates="general" priority="2">Crear sólo producto seleccionado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action CreateOnlySelectedProduct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3941385071 - Property 1295455071" size-unit="char" translate="yes">
+          <source>If any error occurs in a record, all the created products are reversed</source>
+          <target>Si se produce algún error en algún registro, se revierten todos los productos creados</target>
+          <note from="Developer" annotates="general" priority="2">Si se produce algún error en algún registro, se revierten todos los productos creados</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action CreateSelectedProducts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3941385071 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Create Selected Products</source>
+          <target>Crear productos seleccionados</target>
+          <note from="Developer" annotates="general" priority="2">Crear productos seleccionados</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action CreateSelectedProducts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3769928317 - Property 1295455071" size-unit="char" translate="yes">
+          <source>If error occurs in a record, it is marked as "error" and continuous with the process.</source>
+          <target>Si se produce error en algún registro, se marca como "Error" y continua con el proceso.</target>
+          <note from="Developer" annotates="general" priority="2">Si se produce error en algún registro, se marca como "Error" y continua con el proceso.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action CreateSelectedProdutsWithErrorControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3769928317 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Create selected products with error management</source>
+          <target>Crear productos seleccionados con gestión de errores</target>
+          <note from="Developer" annotates="general" priority="2">Crear productos seleccionados con gestión de errores</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action CreateSelectedProdutsWithErrorControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export</source>
+          <target>Exportaciones</target>
+          <note from="Developer" annotates="general" priority="2">Exportaciones</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3893308380 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with CSV Buffer</source>
+          <target>Exportar con CSV Buffer</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con CSV Buffer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithCSVBuffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 2907538851 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with Excel Buffer</source>
+          <target>Exportar con Excel Buffer</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con Excel Buffer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithExcelBuffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 621874093 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with JSONObject (JSON Format)</source>
+          <target>Exportar con JSONObject (Formato JSON)</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con JSONObject (Formato JSON)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithJSONObject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3717759172 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with XMLDocument (XML Format)</source>
+          <target>Exportar con XMLDocument (Formato XML)</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con XMLDocument (Formato XML)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithXMLDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 2589146615 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with XMLPort (Text Fixed)</source>
+          <target>Exportar con XMLPort (Texto Fijo)</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con XMLPort (Texto Fijo)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithXMLPortFixedText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 4140850138 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with XMLPort (Variable Text)</source>
+          <target>Exportar con XMLPort (Texto Variable)</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con XMLPort (Texto Variable)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithXMLPortVarText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3130556208 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Export with XMLPort (XML format)</source>
+          <target>Exportar con XMLPort (Formato XML)</target>
+          <note from="Developer" annotates="general" priority="2">Exportar con XMLPort (Formato XML)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ExportWithXMLPortXmlFormat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3218644386 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Manual Export</source>
+          <target>Exportación manual</target>
+          <note from="Developer" annotates="general" priority="2">Exportación manual</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ManualExport - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import</source>
+          <target>Importaciones</target>
+          <note from="Developer" annotates="general" priority="2">Importaciones</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3891992739 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with XMLPort (XML format)</source>
+          <target>Importar con XMLPort (Formato XML)</target>
+          <note from="Developer" annotates="general" priority="2">Importar con XMLPort (Formato XML)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImporttWithXMLPortXmlFormat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 647590132 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with XMLPort (Fixed Text)</source>
+          <target>Importar con XMLPort (Texto Fijo)</target>
+          <note from="Developer" annotates="general" priority="2">Importar con XMLPort (Texto Fijo)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImportWitdXmlPortFixedText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 2328826325 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with XMLPort (Variable Text)</source>
+          <target>Importar con XMLPort (Texto variable)</target>
+          <note from="Developer" annotates="general" priority="2">Importar con XMLPort (Texto variable)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImportWitdXmlPortVarText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 2583219731 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with CSV Buffer</source>
+          <target>Importar con CSV Buffer</target>
+          <note from="Developer" annotates="general" priority="2">Importar con CSV Buffer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImportWithCSVBuffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 228589420 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with Excel Buffer</source>
+          <target>Importar con Excel Buffer</target>
+          <note from="Developer" annotates="general" priority="2">Importar con Excel Buffer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImportWithExcelBuffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3695695374 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with JSONObject (JSON Format)</source>
+          <target>Importar con JSONObject (Formato JSON)</target>
+          <note from="Developer" annotates="general" priority="2">Importar con JSONObject (Formato JSON)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImportWithJSONObject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 3469259915 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import with XMLDocument (XML Format)</source>
+          <target>Importar con XMLDocument (Formato XML)</target>
+          <note from="Developer" annotates="general" priority="2">Importar con XMLDocument (Formato XML)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImportWithXMLDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 2884316743 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Web Service</source>
+          <target>Servicio web</target>
+          <note from="Developer" annotates="general" priority="2">Servicio web</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action WebService - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3785605378 - Action 2451213570 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import from Web Service</source>
+          <target>Importar desde Servicio Web</target>
+          <note from="Developer" annotates="general" priority="2">Importar desde Servicio Web</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Action ImprotFromWebService - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1780591945 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Item Proxy Transferd</source>
+          <target>Integración Productos - Transferidos</target>
+          <note from="Developer" annotates="general" priority="2">Integración Productos - Transferidos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxyTranfered - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3310212155 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Web Service Connections</source>
+          <target>Conexiones Servicios Web</target>
+          <note from="Developer" annotates="general" priority="2">Conexiones Servicios Web</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConections - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1192579188 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Web Service Connection</source>
+          <target>Conexión Servicio Web</target>
+          <note from="Developer" annotates="general" priority="2">Conexión Servicio Web</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConnectionCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1192579188 - Control 2526754031 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Basic Auth</source>
+          <target>Autenticación "Basic"</target>
+          <note from="Developer" annotates="general" priority="2">Autenticación "Basic"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConnectionCard - Control BasicAuthGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1192579188 - Control 361879936 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Bearer Auth</source>
+          <target>Autenticación "Bearer"</target>
+          <note from="Developer" annotates="general" priority="2">Autenticación "Bearer"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConnectionCard - Control BearerAuthGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1192579188 - Control 3423444602 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Certificated Auth</source>
+          <target>Autenticación certificada</target>
+          <note from="Developer" annotates="general" priority="2">Autenticación certificada</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConnectionCard - Control CertificatedAuthGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1192579188 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2">General</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConnectionCard - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1192579188 - Control 1268173702 - Property 2879900210" size-unit="char" translate="yes">
+          <source>OAuth2 Auth</source>
+          <target>Autenticación "OAuth2"</target>
+          <note from="Developer" annotates="general" priority="2">Autenticación "OAuth2"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOWebServiceConnectionCard - Control OAuth2Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 773242207 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Create Items</source>
+          <target>Crear productos</target>
+          <note from="Developer" annotates="general" priority="2">Crear productos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DTOCreateItems - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2972366050 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Import Items from Service Web</source>
+          <target>Importar productos desde Servicio web</target>
+          <note from="Developer" annotates="general" priority="2">Importar productos desde Servicio web</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DTOImportItemsFromWS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 966510887 - Property 2879900210" size-unit="char" translate="yes">
+          <source>XMLPort Item Proxy</source>
+          <target>XMPPort Integración productos</target>
+          <note from="Developer" annotates="general" priority="2">XMPPort Integración productos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort DTOItemProxyFixedText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 3256512618 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Item Proxy - Variable Text</source>
+          <target>Integración productos - Texto variable</target>
+          <note from="Developer" annotates="general" priority="2">Integración productos - Texto variable</note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort DTOItemProxyVarText - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="XmlPort 1562867921 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Integration Products - XML</source>
+          <target>Integración productos - XML</target>
+          <note from="Developer" annotates="general" priority="2">Integración productos - XML</note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort DTOItemProxyXML - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4291203686 - Control 2782249122 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Integration</source>
+          <target>Integración</target>
+          <note from="Developer" annotates="general" priority="2">Integración</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension DTOInventorySetup - Control Integration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4291203686 - Field 296583753 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Item Service Web</source>
+          <target>Servicio web Productos</target>
+          <note from="Developer" annotates="general" priority="2">Servicio web Productos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension DTOInventorySetup - Field DTOIItemSW - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 678321121 - EnumValue 3470229859 - Property 2879900210" size-unit="char" translate="yes">
+          <source>Certificated</source>
+          <target>Certificado</target>
+          <note from="Developer" annotates="general" priority="2">Certificado</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum DTOAuthType - EnumValue Certificated - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
