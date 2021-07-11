@@ -168,6 +168,11 @@
           <note from="Developer" annotates="general" priority="2">100 carácteres alfanuméricos</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3785605378 - Control 1805468730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Description</source>
+          <note from="Developer" annotates="general" priority="2">Descripción error</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DTOItemProxy - Control Error Description - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3785605378 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>20 Alphanumeric chars</source>
           <note from="Developer" annotates="general" priority="2">20 carácteres alfanuméricos</note>

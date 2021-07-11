@@ -21,10 +21,6 @@ page 70201 "DTOItemProxyTranfered"
                 {
                     ApplicationArea = All;
                 }
-                field(HasError; Rec.HasError)
-                {
-                    ApplicationArea = All;
-                }
                 field("Item No."; Rec."Item No.")
                 {
                     ApplicationArea = All;
@@ -34,10 +30,6 @@ page 70201 "DTOItemProxyTranfered"
                     ApplicationArea = All;
                 }
                 field("Next Counting Start Date"; Rec."Next Counting Start Date")
-                {
-                    ApplicationArea = All;
-                }
-                field("Error Description"; Rec."Error Description")
                 {
                     ApplicationArea = All;
                 }

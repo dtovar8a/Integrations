@@ -24,7 +24,7 @@ table 70200 "DTOItemProxy"
             Caption = 'Has error', Comment = 'Error';
             Editable = false;
         }
-        field(4; "Error Description"; Text[250])
+        field(4; "Error Description"; Blob)
         {
             DataClassification = CustomerContent;
             Caption = 'Error Description', Comment = 'Descripción error';
@@ -79,6 +79,26 @@ table 70200 "DTOItemProxy"
             Rec."Entry No." := ItemProxy."Entry No." + 1
         else
             Rec."Entry No." := 1;
+    end;
+
+    procedure SetErrorDescription(ErrorDescription : Text)
+    var
+        OutStr : OutStream;
+    begin
+        Clear("Error Description");
+        Rec."Error Description".CreateOutStream(OutStr, TextEncoding::UTF8);
+        OutStr.WriteText(ErrorDescription);
+        Modify();
+    end;
+
+    procedure GetErrorDescription() : Text;
+    var
+        TypeHelper : Codeunit "Type Helper";
+        InStr : InStream;
+    begin
+        CalcFields("Error Description");
+        "Error Description".CreateInStream(InStr, TextEncoding::UTF8);
+        exit(TypeHelper.ReadAsTextWithSeparator(InStr, TypeHelper.LFSeparator()));
     end;
 
     procedure ImportFromCSVBuffer()
@@ -468,11 +488,11 @@ table 70200 "DTOItemProxy"
         ClearLastError();
         if not CreateItemFromProxy.Run(ItemProxy) then begin
             ItemProxy.Validate(HasError, true);
-            ItemProxy.Validate("Error Description", CopyStr(GetLastErrorText(), 1, MaxStrLen(ItemProxy."Error Description")));
+            ItemProxy.SetErrorDescription(GetLastErrorText());
         end else begin
             ItemProxy.Validate(Transfered, true);
             ItemProxy.Validate(HasError, false);
-            ItemProxy.Validate("Error Description", '');
+            ItemProxy.SetErrorDescription('');
         end;
 
         ItemProxy.Modify(true);

@@ -40,9 +40,15 @@ page 70200 "DTOItemProxy"
                     ApplicationArea = All;
                     ToolTip = '10 Alphanumeric chars (dd/mm/yyyy)', Comment = '10 carácteres alfanuméricos (dd/mm/aaaa)';
                 }
-                field("Error Description"; Rec."Error Description")
+                field("Error Description"; ErrorDescription)
                 {
                     ApplicationArea = All;
+                    Caption = 'Error Description', Comment = 'Descripción error';
+
+                    trigger OnValidate()
+                    begin
+                        Rec.SetErrorDescription(ErrorDescription);
+                    end;
                 }
                 field(SystemCreatedAt; Rec.SystemCreatedAt)
                 {
@@ -333,6 +339,11 @@ page 70200 "DTOItemProxy"
         }
     }
 
+    trigger OnAfterGetRecord()
+    begin
+        ErrorDescription := Rec.GetErrorDescription();
+    end;
+
     local procedure InitControlTime()
     begin
         InitDateTime := CurrentDateTime;
@@ -352,4 +363,5 @@ page 70200 "DTOItemProxy"
         StopDateTime: DateTime;
         seconds: Decimal;
         CreatedByUser: Text[80];
+        ErrorDescription: Text;
 }
