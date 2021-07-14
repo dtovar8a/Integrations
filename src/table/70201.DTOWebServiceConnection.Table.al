@@ -122,4 +122,57 @@ table 70201 "DTOWebServiceConnection"
         if "Auth Type" = Enum::DTOAuthType::OAuth2 then
             Rec.Validate("Grand Type", 'client_credentials');
     end;
+
+    procedure SetAuthorization(
+        var HTTPRest: Codeunit DTOHTTPRest)
+    var
+        InStr: InStream;
+        CertificateDoesnotExistsLbl: label 'There is no certificate file loaded', Comment = 'No existe fichero de certificado cargado';
+    begin
+        case "Auth Type" of
+            Enum::DTOAuthType::Basic:
+                begin
+                    TestField(User);
+                    TestField(Password);
+
+                    HTTPRest.AddAuthorization(User, Password);
+                end;
+
+            Enum::DTOAuthType::Bearer:
+                begin
+                    TestField(Token);
+
+                    HTTPRest.AddAuthorization(Token);
+                end;
+
+            Enum::DTOAuthType::Certificated:
+                begin
+                    TestField("Certificated Load", true);
+                    TestField("Certificated Password");
+                    CalcFields(Certificate);
+
+                    if not Certificate.HasValue then
+                        Error(CertificateDoesnotExistsLbl);
+
+                    Certificate.CreateInStream(InStr);
+                    HTTPRest.AddAuthorization(InStr, "Certificated Password");
+                end;
+
+            Enum::DTOAuthType::OAuth2:
+                begin
+                    TestField("Grand Type");
+                    TestField("Client Id");
+                    TestField("Cliente Secret");
+                    TestField(Resource);
+                    TestField("Token URL");
+
+                    HTTPRest.AddAuthorization(
+                        "Token URL",
+                        "Grand Type",
+                        "Client Id",
+                        "Cliente Secret",
+                        Resource);
+                end;
+        end;
+    end;    
 }

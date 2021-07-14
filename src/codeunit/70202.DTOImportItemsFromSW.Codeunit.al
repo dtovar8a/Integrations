@@ -7,7 +7,7 @@ codeunit 70202 "DTOImportItemsFromSW"
         CheckServiceWeb();
 
         HTTPRest.Inizialice(Enum::"Http Request Type"::GET, CustomServiceWeb."Request URL");
-        SetAuthorization(HTTPRest);
+        ServiceWebConnection.SetAuthorization(HTTPRest);
         HTTPRest.Run();
 
         CreateItemProxy(HTTPRest.GetResponseMessageContentText());
@@ -26,57 +26,6 @@ codeunit 70202 "DTOImportItemsFromSW"
 
         ServiceWebConnection.Get(CustomServiceWeb."Connection Code");
         ServiceWebConnection.TestField(Enabled, true);
-    end;
-
-    local procedure SetAuthorization(var HTTPRest: Codeunit DTOHTTPRest)
-    var
-        InStr: InStream;
-    begin
-        case ServiceWebConnection."Auth Type" of
-            Enum::DTOAuthType::Basic:
-                begin
-                    ServiceWebConnection.TestField(User);
-                    ServiceWebConnection.TestField(Password);
-
-                    HTTPRest.AddAuthorization(ServiceWebConnection.User, ServiceWebConnection.Password);
-                end;
-
-            Enum::DTOAuthType::Bearer:
-                begin
-                    ServiceWebConnection.TestField(Token);
-
-                    HTTPRest.AddAuthorization(ServiceWebConnection.Token);
-                end;
-
-            Enum::DTOAuthType::Certificated:
-                begin
-                    ServiceWebConnection.TestField("Certificated Load", true);
-                    ServiceWebConnection.TestField("Certificated Password");
-                    ServiceWebConnection.CalcFields(Certificate);
-
-                    if not ServiceWebConnection.Certificate.HasValue then
-                        Error(CertificateDoesnotExistsLbl);
-
-                    ServiceWebConnection.Certificate.CreateInStream(InStr);
-                    HTTPRest.AddAuthorization(InStr, ServiceWebConnection."Certificated Password");
-                end;
-
-            Enum::DTOAuthType::OAuth2:
-                begin
-                    ServiceWebConnection.TestField("Grand Type");
-                    ServiceWebConnection.TestField("Client Id");
-                    ServiceWebConnection.TestField("Cliente Secret");
-                    ServiceWebConnection.TestField(Resource);
-                    ServiceWebConnection.TestField("Token URL");
-
-                    HTTPRest.AddAuthorization(
-                        ServiceWebConnection."Token URL",
-                        ServiceWebConnection."Grand Type",
-                        ServiceWebConnection."Client Id",
-                        ServiceWebConnection."Cliente Secret",
-                        ServiceWebConnection.Resource);
-                end;
-        end;
     end;
 
     local procedure CreateItemProxy(
@@ -114,5 +63,4 @@ codeunit 70202 "DTOImportItemsFromSW"
     var
         CustomServiceWeb: record "DTOCustomWebService";
         ServiceWebConnection: record DTOWebServiceConnection;
-        CertificateDoesnotExistsLbl: label 'There is no certificate file loaded', Comment = 'No existe fichero de certificado cargado';
 }
